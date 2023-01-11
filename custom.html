@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize</title>
+    <style>
+        :root {
+            --primary-color: green;
+            --secondary-color: white;
+            --primary-width: 150px;
+            --secondary-width: 100px;
+        }
+        #heading-1 {
+            height: 100px;
+            width: var(--primary-width);
+            border: 2px solid magenta;
+            color: var(--primary-color);
+            background-color: darkgrey;
+        }
+        #heading-2 {
+            height: 100px;
+            width: var(--secondary-width);
+            border: 2px solid magenta;
+            color: var(--secondary-color);
+            background-color: darkgrey;
+        }
+        #heading-3 {
+            height: 100px;
+            width: var(--primary-width);
+            border: 2px solid magenta;
+            color: var(--primary-color);
+            background-color: darkgrey;
+        }
+        #heading-4 {
+            height: 100px;
+            width: var(--secondary-width);
+            border: 2px solid magenta;
+            color: var(--secondary-color);
+            background-color: darkgrey;
+        }
+        h2 {
+            width: calc(100% - 500px);
+            color: darkorange;
+            background-color: darkgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Custom Check</h1>
+    <h1 class="heading" id="heading-1">box-1</h1>
+    <h1 class="heading" id="heading-2">box-2</h1>
+    <h1 class="heading" id="heading-3">box-3</h1>
+    <h1 class="heading" id="heading-4">box-4</h1>
+    <h2>calc</h2>
+</body>
+</html>
